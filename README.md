@@ -50,3 +50,13 @@
 2. The code in Listing 2.18 shows how to add a validation for the presence of micropost content in order to ensure that microposts can’t be blank. Verify that you get the behavior shown in Figure 2.18.
 * See micropost.rb line 2
 3. See user.rb line 2
+
+## Exercises 6
+1. By examining the contents of the Application controller file, find the line that causes ApplicationController to inherit from ActionController::Base.
+* Line 1 
+```
+class ApplicationController < ActionController::Base
+```
+2. Is there an analogous file containing a line where ApplicationRecord inherits from ActiveRecord::Base? Hint: It would probably be a file called something like application_record.rb in the app/models directory.
+* In application_record.rb, line 1
+
