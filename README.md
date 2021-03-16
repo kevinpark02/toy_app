@@ -49,4 +49,4 @@
 * See show.html.erb in /views/users/
 2. The code in Listing 2.18 shows how to add a validation for the presence of micropost content in order to ensure that microposts can’t be blank. Verify that you get the behavior shown in Figure 2.18.
 * See micropost.rb line 2
-3. 
+3. See user.rb line 2
