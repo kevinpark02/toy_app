@@ -27,3 +27,19 @@
 ```
 3. What is the name of the view file for the user edit page?
 * edit.html.erb
+
+## Exercises 3
+1. (For readers who know CSS) Create a new micropost, then use your browser’s HTML inspector to determine the CSS id for the text “Micropost was successfully created.” What happens when you refresh your browser?
+* CSS ID for "User was successfully created" is "notice"
+* When refreshing the browser, the message disappears
+2. Try to create a micropost with empty content and no user id.
+* Allowed to create a micropost with empty content and no user id
+3. Try to create a micropost with over 140 characters of content (say, the first paragraph from the Wikipedia article on Ruby).
+* You can create a micropost with more than 140 characters
+4. Destroy the microposts from the previous exercises.
+
+## Exercises 4
+1. Try to create a micropost with the same long content used in a previous exercise (Section 2.3.1.1). How has the behavior changed?
+* There is an error message that prevents content longer than 140 characters to not be created
+2. (For readers who know CSS) Use your browser’s HTML inspector to determine the CSS id of the error message produced by the previous exercise.
+* css id is "error_explanation"
