@@ -47,4 +47,6 @@
 ## Exercises 5
 1. Edit the user show page to display the content of the user’s first micropost. (Use your technical sophistication (Box 1.2) to guess the syntax based on the other content in the file.) Confirm by visiting /users/1 that it worked.
 * See show.html.erb in /views/users/
-2. 
+2. The code in Listing 2.18 shows how to add a validation for the presence of micropost content in order to ensure that microposts can’t be blank. Verify that you get the behavior shown in Figure 2.18.
+* See micropost.rb line 2
+3. 
