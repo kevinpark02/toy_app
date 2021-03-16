@@ -43,3 +43,8 @@
 * There is an error message that prevents content longer than 140 characters to not be created
 2. (For readers who know CSS) Use your browser’s HTML inspector to determine the CSS id of the error message produced by the previous exercise.
 * css id is "error_explanation"
+
+## Exercises 5
+1. Edit the user show page to display the content of the user’s first micropost. (Use your technical sophistication (Box 1.2) to guess the syntax based on the other content in the file.) Confirm by visiting /users/1 that it worked.
+* See show.html.erb in /views/users/
+2. 
